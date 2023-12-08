@@ -1,0 +1,24 @@
+/* Pour la "poignée" de la barre de défilement verticale */
+::-webkit-scrollbar-thumb {
+    border: 1px solid currentColor;
+    background-color: var(--highlight);
+    border-radius: 5px;
+}
+
+/* Pour la barre de défilement verticale elle-même */
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--stroke);
+}
+
+/* Pour la "poignée" de la barre de défilement horizontale */
+::-webkit-scrollbar-thumb:horizontal {
+    border: 1px solid currentColor;
+    background-color: var(--highlight);
+    border-radius: 5px;
+}
+
+/* Pour la barre de défilement horizontale elle-même */
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}

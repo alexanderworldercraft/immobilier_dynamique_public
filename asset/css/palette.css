@@ -1,0 +1,44 @@
+:root {
+    --background: #444;
+    --button: #2E6780;
+    --headline: #000;
+    --paragraph: #A7A9BE;
+    --buttontext: #FFFFFE;
+    --stroke: black;
+    --main: #fff;
+    --highlight: #c5b311;
+    --secondary: #3F5F63;
+    --tertiary: #002349;
+}
+
+.background {
+    background: var(--background)!important;
+}
+.button {
+    background: var(--button)!important;
+}
+.headline {
+    color: var(--headline)!important;
+}
+.paragraph {
+    color: var(--paragraph)!important;
+}
+.buttontext {
+    color: var(--buttontext)!important;
+}
+.stroke {
+    border-color: var(--stroke)!important;
+}
+.main {
+    color: var(--main)!important;
+}
+.highlight,
+.active {
+    color: var(--highlight)!important;
+}
+.secondary {
+    background: var(--secondary)!important;
+}
+.tertiary {
+    background: var(--tertiary)!important;
+}

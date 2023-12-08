@@ -1,0 +1,77 @@
+.affiche {
+    max-height: 675px;
+    overflow-y: auto;
+}
+
+.vue {
+    display: none;
+}
+
+.content {
+    display: none;
+}
+
+/* Fond d'écran */
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -9999;
+}
+
+.fond-blur {
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fond-blur-menu {
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fond-blur-header {
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box-shadow {
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, .75);
+}
+
+.text-contour {
+    text-shadow: 
+        1px 1px 2px black, 
+        0px 1px 2px black, 
+        1px 0px 2px black,
+        1px 1px 2px black,
+        -1px -1px 2px black,
+        -1px 0px 2px black,
+        0px -1px 2px black;
+}
+
+/* Pour la "poignée" de la barre de défilement verticale */
+::-webkit-scrollbar-thumb {
+    border: 1px solid currentColor;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* Pour la barre de défilement verticale elle-même */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Pour la "poignée" de la barre de défilement horizontale */
+::-webkit-scrollbar-thumb:horizontal {
+    border: 1px solid currentColor;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* Pour la barre de défilement horizontale elle-même */
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
